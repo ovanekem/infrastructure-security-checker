@@ -1,0 +1,530 @@
+{
+  "ports": [
+    {
+      "port": 21,
+      "transport": "tcp",
+      "service": "FTP",
+      "protocol": "ftp",
+      "policy": "closed",
+      "notes": "File Transfer Protocol — insecure, should not be publicly exposed"
+    },
+    {
+      "port": 22,
+      "transport": "tcp",
+      "service": "SSH",
+      "protocol": "ssh",
+      "policy": "closed",
+      "notes": "Remote administration — should not be publicly exposed"
+    },
+    {
+      "port": 23,
+      "transport": "tcp",
+      "service": "Telnet",
+      "protocol": "telnet",
+      "policy": "closed",
+      "notes": "Unencrypted remote access — should never be publicly exposed"
+    },
+    {
+      "port": 25,
+      "transport": "tcp",
+      "service": "SMTP",
+      "protocol": "smtp",
+      "notes": "Mail transfer"
+    },
+    {
+      "port": 53,
+      "transport": "tcp",
+      "service": "DNS (TCP)",
+      "protocol": "dns",
+      "notes": "TCP fallback and zone transfers"
+    },
+    {
+      "port": 53,
+      "transport": "udp",
+      "service": "DNS (UDP)",
+      "protocol": "dns",
+      "notes": "Primary DNS query transport"
+    },
+    {
+      "port": 67,
+      "transport": "udp",
+      "service": "DHCP Server",
+      "protocol": "dhcp",
+      "policy": "closed",
+      "notes": "DHCP server — should not be publicly exposed"
+    },
+    {
+      "port": 68,
+      "transport": "udp",
+      "service": "DHCP Client",
+      "protocol": "dhcp",
+      "policy": "closed",
+      "notes": "DHCP client — should not be publicly exposed"
+    },
+    {
+      "port": 69,
+      "transport": "udp",
+      "service": "TFTP",
+      "protocol": "tftp",
+      "policy": "closed",
+      "notes": "Trivial File Transfer Protocol — no authentication, should not be publicly exposed"
+    },
+    {
+      "port": 80,
+      "transport": "tcp",
+      "service": "HTTP",
+      "protocol": "http",
+      "notes": "Web entrypoint / HTTPS redirect checks"
+    },
+    {
+      "port": 110,
+      "transport": "tcp",
+      "service": "POP3",
+      "protocol": "pop3",
+      "notes": "Legacy mail retrieval"
+    },
+    {
+      "port": 111,
+      "transport": "tcp",
+      "service": "RPCbind",
+      "protocol": "rpcbind",
+      "policy": "closed",
+      "notes": "Sun RPC portmapper — should not be publicly exposed"
+    },
+    {
+      "port": 111,
+      "transport": "udp",
+      "service": "RPCbind (UDP)",
+      "protocol": "rpcbind",
+      "policy": "closed",
+      "notes": "Sun RPC portmapper — should not be publicly exposed"
+    },
+    {
+      "port": 123,
+      "transport": "udp",
+      "service": "NTP",
+      "protocol": "ntp",
+      "policy": "closed",
+      "notes": "Network Time Protocol — can be abused for amplification attacks"
+    },
+    {
+      "port": 135,
+      "transport": "tcp",
+      "service": "MSRPC",
+      "protocol": "msrpc",
+      "policy": "closed",
+      "notes": "Microsoft RPC endpoint mapper — should not be publicly exposed"
+    },
+    {
+      "port": 135,
+      "transport": "udp",
+      "service": "MSRPC (UDP)",
+      "protocol": "msrpc",
+      "policy": "closed",
+      "notes": "Microsoft RPC endpoint mapper — should not be publicly exposed"
+    },
+    {
+      "port": 137,
+      "transport": "udp",
+      "service": "NetBIOS Name Service",
+      "protocol": "netbios",
+      "policy": "closed",
+      "notes": "NetBIOS name resolution — should not be publicly exposed"
+    },
+    {
+      "port": 138,
+      "transport": "udp",
+      "service": "NetBIOS Datagram",
+      "protocol": "netbios",
+      "policy": "closed",
+      "notes": "NetBIOS datagram service — should not be publicly exposed"
+    },
+    {
+      "port": 139,
+      "transport": "tcp",
+      "service": "NetBIOS Session",
+      "protocol": "netbios",
+      "policy": "closed",
+      "notes": "NetBIOS session service — should not be publicly exposed"
+    },
+    {
+      "port": 143,
+      "transport": "tcp",
+      "service": "IMAP",
+      "protocol": "imap",
+      "notes": "Mail retrieval"
+    },
+    {
+      "port": 161,
+      "transport": "udp",
+      "service": "SNMP",
+      "protocol": "snmp",
+      "policy": "closed",
+      "notes": "Simple Network Management Protocol — should not be publicly exposed"
+    },
+    {
+      "port": 162,
+      "transport": "udp",
+      "service": "SNMP Trap",
+      "protocol": "snmp",
+      "policy": "closed",
+      "notes": "SNMP trap receiver — should not be publicly exposed"
+    },
+    {
+      "port": 443,
+      "transport": "tcp",
+      "service": "HTTPS",
+      "protocol": "https",
+      "notes": "Primary TLS web service"
+    },
+    {
+      "port": 443,
+      "transport": "udp",
+      "service": "QUIC/HTTP3",
+      "protocol": "quic",
+      "notes": "HTTP/3 over QUIC (UDP 443)"
+    },
+    {
+      "port": 445,
+      "transport": "tcp",
+      "service": "SMB",
+      "protocol": "smb",
+      "policy": "closed",
+      "notes": "Server Message Block / CIFS — should not be publicly exposed"
+    },
+    {
+      "port": 445,
+      "transport": "udp",
+      "service": "SMB (UDP)",
+      "protocol": "smb",
+      "policy": "closed",
+      "notes": "Server Message Block over UDP — should not be publicly exposed"
+    },
+    {
+      "port": 465,
+      "transport": "tcp",
+      "service": "SMTPS",
+      "protocol": "smtps",
+      "notes": "SMTP over TLS"
+    },
+    {
+      "port": 500,
+      "transport": "udp",
+      "service": "IKE/IPsec",
+      "protocol": "ike",
+      "policy": "closed",
+      "notes": "Internet Key Exchange for IPsec — should not be publicly exposed unless intended VPN endpoint"
+    },
+    {
+      "port": 514,
+      "transport": "udp",
+      "service": "Syslog",
+      "protocol": "syslog",
+      "policy": "closed",
+      "notes": "BSD syslog — should not be publicly exposed"
+    },
+    {
+      "port": 520,
+      "transport": "udp",
+      "service": "RIP",
+      "protocol": "rip",
+      "policy": "closed",
+      "notes": "Routing Information Protocol — should not be publicly exposed"
+    },
+    {
+      "port": 587,
+      "transport": "tcp",
+      "service": "SMTP Submission",
+      "protocol": "smtp",
+      "notes": "Authenticated mail submission"
+    },
+    {
+      "port": 631,
+      "transport": "udp",
+      "service": "IPP",
+      "protocol": "ipp",
+      "policy": "closed",
+      "notes": "Internet Printing Protocol — should not be publicly exposed"
+    },
+    {
+      "port": 993,
+      "transport": "tcp",
+      "service": "IMAPS",
+      "protocol": "imaps",
+      "notes": "IMAP over TLS"
+    },
+    {
+      "port": 995,
+      "transport": "tcp",
+      "service": "POP3S",
+      "protocol": "pop3s",
+      "notes": "POP3 over TLS"
+    },
+    {
+      "port": 1099,
+      "transport": "tcp",
+      "service": "JMX",
+      "protocol": "jmx",
+      "policy": "closed",
+      "notes": "Java Management Extensions — should not be publicly exposed"
+    },
+    {
+      "port": 1194,
+      "transport": "udp",
+      "service": "OpenVPN",
+      "protocol": "openvpn",
+      "policy": "closed",
+      "notes": "OpenVPN default port — should not be publicly exposed unless intended VPN endpoint"
+    },
+    {
+      "port": 1434,
+      "transport": "udp",
+      "service": "MS-SQL Monitor",
+      "protocol": "mssql",
+      "policy": "closed",
+      "notes": "Microsoft SQL Server Browser/Monitor — should not be publicly exposed"
+    },
+    {
+      "port": 1521,
+      "transport": "tcp",
+      "service": "Oracle Listener",
+      "protocol": "oracle",
+      "notes": "Oracle database listener"
+    },
+    {
+      "port": 1723,
+      "transport": "tcp",
+      "service": "PPTP",
+      "protocol": "pptp",
+      "policy": "closed",
+      "notes": "Point-to-Point Tunneling Protocol — insecure VPN, should not be publicly exposed"
+    },
+    {
+      "port": 1900,
+      "transport": "udp",
+      "service": "SSDP/UPnP",
+      "protocol": "ssdp",
+      "policy": "closed",
+      "notes": "Simple Service Discovery Protocol — commonly abused for amplification attacks"
+    },
+    {
+      "port": 2181,
+      "transport": "tcp",
+      "service": "Zookeeper",
+      "protocol": "zookeeper",
+      "policy": "closed",
+      "notes": "Zookeeper coordination service — should not be publicly exposed"
+    },
+    {
+      "port": 2375,
+      "transport": "tcp",
+      "service": "Docker API (plain)",
+      "protocol": "docker",
+      "policy": "closed",
+      "notes": "Unauthenticated Docker daemon API — critical exposure risk"
+    },
+    {
+      "port": 2376,
+      "transport": "tcp",
+      "service": "Docker API (TLS)",
+      "protocol": "docker",
+      "policy": "closed",
+      "notes": "TLS Docker daemon API — should not be publicly exposed"
+    },
+    {
+      "port": 2379,
+      "transport": "tcp",
+      "service": "Etcd client",
+      "protocol": "etcd",
+      "policy": "closed",
+      "notes": "Etcd client API — should not be publicly exposed"
+    },
+    {
+      "port": 2380,
+      "transport": "tcp",
+      "service": "Etcd peer",
+      "protocol": "etcd",
+      "policy": "closed",
+      "notes": "Etcd peer communication — should not be publicly exposed"
+    },
+    {
+      "port": 3000,
+      "transport": "tcp",
+      "service": "Grafana",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "Grafana dashboard — should not be publicly exposed"
+    },
+    {
+      "port": 3306,
+      "transport": "tcp",
+      "service": "MySQL",
+      "protocol": "mysql",
+      "notes": "MySQL/MariaDB database"
+    },
+    {
+      "port": 3389,
+      "transport": "tcp",
+      "service": "RDP",
+      "protocol": "rdp",
+      "policy": "closed",
+      "notes": "Remote desktop — should not be publicly exposed"
+    },
+    {
+      "port": 3389,
+      "transport": "udp",
+      "service": "RDP (UDP)",
+      "protocol": "rdp",
+      "policy": "closed",
+      "notes": "Remote desktop UDP transport — should not be publicly exposed"
+    },
+    {
+      "port": 4500,
+      "transport": "udp",
+      "service": "IPsec NAT-T",
+      "protocol": "ike",
+      "policy": "closed",
+      "notes": "IPsec NAT traversal — should not be publicly exposed unless intended VPN endpoint"
+    },
+    {
+      "port": 4646,
+      "transport": "tcp",
+      "service": "Nomad",
+      "protocol": "nomad",
+      "policy": "closed",
+      "notes": "HashiCorp Nomad API — should not be publicly exposed"
+    },
+    {
+      "port": 5353,
+      "transport": "udp",
+      "service": "mDNS",
+      "protocol": "mdns",
+      "policy": "closed",
+      "notes": "Multicast DNS — should not be publicly exposed"
+    },
+    {
+      "port": 5432,
+      "transport": "tcp",
+      "service": "PostgreSQL",
+      "protocol": "postgresql",
+      "notes": "PostgreSQL database"
+    },
+    {
+      "port": 5900,
+      "transport": "tcp",
+      "service": "VNC",
+      "protocol": "vnc",
+      "policy": "closed",
+      "notes": "Virtual Network Computing — should not be publicly exposed"
+    },
+    {
+      "port": 6379,
+      "transport": "tcp",
+      "service": "Redis",
+      "protocol": "redis",
+      "notes": "In-memory datastore"
+    },
+    {
+      "port": 6443,
+      "transport": "tcp",
+      "service": "Kubernetes API",
+      "protocol": "https",
+      "policy": "closed",
+      "notes": "Kubernetes API server — should not be publicly exposed"
+    },
+    {
+      "port": 8080,
+      "transport": "tcp",
+      "service": "HTTP Alternate",
+      "protocol": "http",
+      "notes": "Alternative web application port"
+    },
+    {
+      "port": 8200,
+      "transport": "tcp",
+      "service": "Vault",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "HashiCorp Vault API — should not be publicly exposed"
+    },
+    {
+      "port": 8443,
+      "transport": "tcp",
+      "service": "HTTPS Alternate",
+      "protocol": "https",
+      "notes": "Alternative TLS web application port"
+    },
+    {
+      "port": 8500,
+      "transport": "tcp",
+      "service": "Consul",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "HashiCorp Consul API — should not be publicly exposed"
+    },
+    {
+      "port": 8778,
+      "transport": "tcp",
+      "service": "Jolokia",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "Jolokia JMX-HTTP bridge — should not be publicly exposed"
+    },
+    {
+      "port": 9000,
+      "transport": "tcp",
+      "service": "Portainer",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "Portainer Docker management UI — should not be publicly exposed"
+    },
+    {
+      "port": 9001,
+      "transport": "tcp",
+      "service": "MinIO Console",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "MinIO object storage console — should not be publicly exposed"
+    },
+    {
+      "port": 9090,
+      "transport": "tcp",
+      "service": "Prometheus",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "Prometheus metrics endpoint — should not be publicly exposed"
+    },
+    {
+      "port": 9092,
+      "transport": "tcp",
+      "service": "Kafka",
+      "protocol": "kafka",
+      "policy": "closed",
+      "notes": "Apache Kafka broker — should not be publicly exposed"
+    },
+    {
+      "port": 9443,
+      "transport": "tcp",
+      "service": "Portainer (TLS)",
+      "protocol": "https",
+      "policy": "closed",
+      "notes": "Portainer Docker management UI over TLS — should not be publicly exposed"
+    },
+    {
+      "port": 11211,
+      "transport": "udp",
+      "service": "Memcached",
+      "protocol": "memcached",
+      "policy": "closed",
+      "notes": "Memcached UDP — commonly abused for amplification attacks"
+    },
+    {
+      "port": 15672,
+      "transport": "tcp",
+      "service": "RabbitMQ Management",
+      "protocol": "http",
+      "policy": "closed",
+      "notes": "RabbitMQ management console — should not be publicly exposed"
+    }
+  ]
+}

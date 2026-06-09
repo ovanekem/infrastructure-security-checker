@@ -1,0 +1,3123 @@
+{
+  "metadata": {
+    "sourceUrl": "https://www.iana.org/assignments/tls-parameters/tls-parameters.xml",
+    "fetchedAt": "2026-04-27T12:19:11.263Z",
+    "registryId": "tls-parameters-4"
+  },
+  "ciphers": [
+    {
+      "name": "TLS_NULL_WITH_NULL_NULL",
+      "recommended": "N",
+      "value": "0x00,0x00",
+      "references": [
+        "rfc5246"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_NULL_MD5",
+      "recommended": "D",
+      "value": "0x00,0x01",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0x00,0x02",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x03",
+      "references": [
+        "rfc4346",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_RC4_128_MD5",
+      "recommended": "D",
+      "value": "0x00,0x04",
+      "references": [
+        "rfc5246",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0x00,0x05",
+      "references": [
+        "rfc5246",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x06",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_IDEA_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x07",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x08",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x09",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0A",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0B",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0C",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0D",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0E",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x0F",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x10",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x11",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x12",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x13",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x14",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x15",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x16",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x17",
+      "references": [
+        "rfc4346",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_RC4_128_MD5",
+      "recommended": "D",
+      "value": "0x00,0x18",
+      "references": [
+        "rfc5246",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x19",
+      "references": [
+        "rfc4346",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x1A",
+      "references": [
+        "rfc8996",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x1B",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_DES_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x1E",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x1F",
+      "references": [
+        "rfc2712"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0x00,0x20",
+      "references": [
+        "rfc2712",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_IDEA_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x21",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_DES_CBC_MD5",
+      "recommended": "D",
+      "value": "0x00,0x22",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_3DES_EDE_CBC_MD5",
+      "recommended": "N",
+      "value": "0x00,0x23",
+      "references": [
+        "rfc2712"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_RC4_128_MD5",
+      "recommended": "D",
+      "value": "0x00,0x24",
+      "references": [
+        "rfc2712",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_WITH_IDEA_CBC_MD5",
+      "recommended": "D",
+      "value": "0x00,0x25",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA",
+      "recommended": "D",
+      "value": "0x00,0x26",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA",
+      "recommended": "D",
+      "value": "0x00,0x27",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_RC4_40_SHA",
+      "recommended": "D",
+      "value": "0x00,0x28",
+      "references": [
+        "rfc2712",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x29",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x2A",
+      "references": [
+        "rfc2712",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_KRB5_EXPORT_WITH_RC4_40_MD5",
+      "recommended": "D",
+      "value": "0x00,0x2B",
+      "references": [
+        "rfc2712",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0x00,0x2C",
+      "references": [
+        "rfc4785",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0x00,0x2D",
+      "references": [
+        "rfc4785",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0x00,0x2E",
+      "references": [
+        "rfc4785",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x2F",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x30",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x31",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x32",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x33",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x34",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x35",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x36",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x37",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x38",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x39",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x3A",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_NULL_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x3B",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x3C",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x3D",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x3E",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x3F",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x40",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x41",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x42",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x43",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x44",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x45",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x46",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x67",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x68",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x69",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x6A",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x6B",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x6C",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x6D",
+      "references": [
+        "rfc5246",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ASCONAEAD128_ASCONHASH256",
+      "recommended": "N",
+      "value": "0x00,0x6E",
+      "references": [
+        "https://doi.org/10.6028/NIST.SP.800-232"
+      ]
+    },
+    {
+      "name": "TLS_ASCONAEAD128_SHA256",
+      "recommended": "N",
+      "value": "0x00,0x6F",
+      "references": [
+        "https://doi.org/10.6028/NIST.SP.800-232",
+        "draft-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_AES_128_GCM_ASCONHASH256",
+      "recommended": "N",
+      "value": "0x00,0x70",
+      "references": [
+        "https://doi.org/10.6028/NIST.SP.800-232",
+        "draft-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_AES_128_CCM_ASCONHASH256",
+      "recommended": "N",
+      "value": "0x00,0x71",
+      "references": [
+        "https://doi.org/10.6028/NIST.SP.800-232",
+        "draft-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x84",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x85",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x86",
+      "references": [
+        "rfc5932"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x87",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x88",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x89",
+      "references": [
+        "rfc5932"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0x00,0x8A",
+      "references": [
+        "rfc4279",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x8B",
+      "references": [
+        "rfc4279"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x8C",
+      "references": [
+        "rfc4279"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0x00,0x8D",
+      "references": [
+        "rfc4279"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0x00,0x8E",
+      "references": [
+        "rfc4279",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x8F",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x90",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x91",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0x00,0x92",
+      "references": [
+        "rfc4279",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x93",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x94",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x95",
+      "references": [
+        "rfc4279",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x96",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x97",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x98",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x99",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x9A",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_SEED_CBC_SHA",
+      "recommended": "D",
+      "value": "0x00,0x9B",
+      "references": [
+        "rfc4162",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x9C",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0x9D",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0x9E",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0x9F",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xA0",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xA1",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xA2",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xA3",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xA4",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xA5",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xA6",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xA7",
+      "references": [
+        "rfc5288",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0x00,0xA8",
+      "references": [
+        "rfc5487"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0x00,0xA9",
+      "references": [
+        "rfc5487"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xAA",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xAB",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xAC",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xAD",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0x00,0xAE",
+      "references": [
+        "rfc5487"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0x00,0xAF",
+      "references": [
+        "rfc5487"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_NULL_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xB0",
+      "references": [
+        "rfc5487",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_NULL_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xB1",
+      "references": [
+        "rfc5487",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xB2",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xB3",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_NULL_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xB4",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_NULL_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xB5",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xB6",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xB7",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_NULL_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xB8",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_NULL_SHA384",
+      "recommended": "D",
+      "value": "0x00,0xB9",
+      "references": [
+        "rfc5487",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBA",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBB",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBC",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBD",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBE",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xBF",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC0",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC1",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC2",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC3",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC4",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
+      "recommended": "D",
+      "value": "0x00,0xC5",
+      "references": [
+        "rfc5932",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_SM4_GCM_SM3",
+      "recommended": "N",
+      "value": "0x00,0xC6",
+      "references": [
+        "rfc8998"
+      ]
+    },
+    {
+      "name": "TLS_SM4_CCM_SM3",
+      "recommended": "N",
+      "value": "0x00,0xC7",
+      "references": [
+        "rfc8998"
+      ]
+    },
+    {
+      "name": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV",
+      "recommended": "N",
+      "value": "0x00,0xFF",
+      "references": [
+        "rfc5746"
+      ]
+    },
+    {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "recommended": "Y",
+      "value": "0x13,0x01",
+      "references": [
+        "RFC-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "recommended": "Y",
+      "value": "0x13,0x02",
+      "references": [
+        "RFC-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_CHACHA20_POLY1305_SHA256",
+      "recommended": "Y",
+      "value": "0x13,0x03",
+      "references": [
+        "RFC-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_AES_128_CCM_SHA256",
+      "recommended": "Y",
+      "value": "0x13,0x04",
+      "references": [
+        "RFC-ietf-tls-rfc8446bis-13"
+      ]
+    },
+    {
+      "name": "TLS_AES_128_CCM_8_SHA256",
+      "recommended": "N",
+      "value": "0x13,0x05",
+      "references": [
+        "RFC-ietf-tls-rfc8446bis-13",
+        "https://datatracker.ietf.org/doc/minutes-interim-2018-iesg-16-201808161400/"
+      ]
+    },
+    {
+      "name": "TLS_AEGIS_256_SHA512",
+      "recommended": "N",
+      "value": "0x13,0x06",
+      "references": [
+        "draft-irtf-cfrg-aegis-aead-08"
+      ]
+    },
+    {
+      "name": "TLS_AEGIS_128L_SHA256",
+      "recommended": "N",
+      "value": "0x13,0x07",
+      "references": [
+        "draft-irtf-cfrg-aegis-aead-08"
+      ]
+    },
+    {
+      "name": "TLS_FALLBACK_SCSV",
+      "recommended": "N",
+      "value": "0x56,0x00",
+      "references": [
+        "rfc7507"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x01",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x02",
+      "references": [
+        "rfc8422",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x03",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x04",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x05",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x06",
+      "references": [
+        "rfc8422",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x07",
+      "references": [
+        "rfc8422",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x08",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x09",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x0A",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x0B",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x0C",
+      "references": [
+        "rfc8422",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x0D",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x0E",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x0F",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x10",
+      "references": [
+        "rfc8422",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x11",
+      "references": [
+        "rfc8422",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x12",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x13",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x14",
+      "references": [
+        "rfc8422"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_anon_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x15",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_anon_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x16",
+      "references": [
+        "rfc8422",
+        "rfc6347",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x17",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x18",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x19",
+      "references": [
+        "rfc8422",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1A",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1B",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1C",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1D",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1E",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x1F",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x20",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x21",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x22",
+      "references": [
+        "rfc5054"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x23",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x24",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x25",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x26",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x27",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x28",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x29",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x2A",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "Y",
+      "value": "0xC0,0x2B",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "Y",
+      "value": "0xC0,0x2C",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x2D",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x2E",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "Y",
+      "value": "0xC0,0x2F",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "Y",
+      "value": "0xC0,0x30",
+      "references": [
+        "rfc5289"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x31",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x32",
+      "references": [
+        "rfc5289",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_RC4_128_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x33",
+      "references": [
+        "rfc5489",
+        "rfc6347",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x34",
+      "references": [
+        "rfc5489"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x35",
+      "references": [
+        "rfc5489"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA",
+      "recommended": "N",
+      "value": "0xC0,0x36",
+      "references": [
+        "rfc5489"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x37",
+      "references": [
+        "rfc5489"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x38",
+      "references": [
+        "rfc5489"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_NULL_SHA",
+      "recommended": "D",
+      "value": "0xC0,0x39",
+      "references": [
+        "rfc5489",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_NULL_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x3A",
+      "references": [
+        "rfc5489",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_NULL_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x3B",
+      "references": [
+        "rfc5489",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x3C",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x3D",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x3E",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x3F",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x40",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x41",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x42",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x43",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x44",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x45",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x46",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x47",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x48",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x49",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x4A",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x4B",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x4C",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x4D",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x4E",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x4F",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x50",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x51",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x52",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x53",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x54",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x55",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x56",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x57",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x58",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x59",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x5A",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x5B",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x5C",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x5D",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x5E",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x5F",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x60",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x61",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x62",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x63",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x64",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x65",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x66",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x67",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x68",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x69",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x6A",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x6B",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x6C",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x6D",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x6E",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x6F",
+      "references": [
+        "rfc6209",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x70",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x71",
+      "references": [
+        "rfc6209"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x72",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x73",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x74",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x75",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x76",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x77",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x78",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x79",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x7A",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x7B",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x7C",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x7D",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x7E",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x7F",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x80",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x81",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x82",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x83",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x84",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x85",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x86",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x87",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x88",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x89",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x8A",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x8B",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x8C",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x8D",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x8E",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x8F",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x90",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x91",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x92",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x93",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x94",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x95",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x96",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x97",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0x98",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0x99",
+      "references": [
+        "rfc6367",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0x9A",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0x9B",
+      "references": [
+        "rfc6367"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_128_CCM",
+      "recommended": "D",
+      "value": "0xC0,0x9C",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_256_CCM",
+      "recommended": "D",
+      "value": "0xC0,0x9D",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_128_CCM",
+      "recommended": "D",
+      "value": "0xC0,0x9E",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_256_CCM",
+      "recommended": "D",
+      "value": "0xC0,0x9F",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_128_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xA0",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_WITH_AES_256_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xA1",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xA2",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xA3",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_128_CCM",
+      "recommended": "N",
+      "value": "0xC0,0xA4",
+      "references": [
+        "rfc6655"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_256_CCM",
+      "recommended": "N",
+      "value": "0xC0,0xA5",
+      "references": [
+        "rfc6655"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_128_CCM",
+      "recommended": "D",
+      "value": "0xC0,0xA6",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_AES_256_CCM",
+      "recommended": "D",
+      "value": "0xC0,0xA7",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_128_CCM_8",
+      "recommended": "N",
+      "value": "0xC0,0xA8",
+      "references": [
+        "rfc6655"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_AES_256_CCM_8",
+      "recommended": "N",
+      "value": "0xC0,0xA9",
+      "references": [
+        "rfc6655"
+      ]
+    },
+    {
+      "name": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xAA",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
+      "recommended": "D",
+      "value": "0xC0,0xAB",
+      "references": [
+        "rfc6655",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
+      "recommended": "N",
+      "value": "0xC0,0xAC",
+      "references": [
+        "rfc7251"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
+      "recommended": "N",
+      "value": "0xC0,0xAD",
+      "references": [
+        "rfc7251"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
+      "recommended": "N",
+      "value": "0xC0,0xAE",
+      "references": [
+        "rfc7251"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
+      "recommended": "N",
+      "value": "0xC0,0xAF",
+      "references": [
+        "rfc7251"
+      ]
+    },
+    {
+      "name": "TLS_ECCPWD_WITH_AES_128_GCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0xB0",
+      "references": [
+        "rfc8492"
+      ]
+    },
+    {
+      "name": "TLS_ECCPWD_WITH_AES_256_GCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0xB1",
+      "references": [
+        "rfc8492"
+      ]
+    },
+    {
+      "name": "TLS_ECCPWD_WITH_AES_128_CCM_SHA256",
+      "recommended": "N",
+      "value": "0xC0,0xB2",
+      "references": [
+        "rfc8492"
+      ]
+    },
+    {
+      "name": "TLS_ECCPWD_WITH_AES_256_CCM_SHA384",
+      "recommended": "N",
+      "value": "0xC0,0xB3",
+      "references": [
+        "rfc8492"
+      ]
+    },
+    {
+      "name": "TLS_SHA256_SHA256",
+      "recommended": "D",
+      "value": "0xC0,0xB4",
+      "references": [
+        "rfc9150",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_SHA384_SHA384",
+      "recommended": "D",
+      "value": "0xC0,0xB5",
+      "references": [
+        "rfc9150",
+        "rfc9847"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC",
+      "recommended": "N",
+      "value": "0xC1,0x00",
+      "references": [
+        "rfc9189"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC",
+      "recommended": "N",
+      "value": "0xC1,0x01",
+      "references": [
+        "rfc9189"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_28147_CNT_IMIT",
+      "recommended": "N",
+      "value": "0xC1,0x02",
+      "references": [
+        "rfc9189"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L",
+      "recommended": "N",
+      "value": "0xC1,0x03",
+      "references": [
+        "rfc9367"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_MAGMA_MGM_L",
+      "recommended": "N",
+      "value": "0xC1,0x04",
+      "references": [
+        "rfc9367"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S",
+      "recommended": "N",
+      "value": "0xC1,0x05",
+      "references": [
+        "rfc9367"
+      ]
+    },
+    {
+      "name": "TLS_GOSTR341112_256_WITH_MAGMA_MGM_S",
+      "recommended": "N",
+      "value": "0xC1,0x06",
+      "references": [
+        "rfc9367"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "Y",
+      "value": "0xCC,0xA8",
+      "references": [
+        "rfc7905"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "Y",
+      "value": "0xCC,0xA9",
+      "references": [
+        "rfc7905"
+      ]
+    },
+    {
+      "name": "TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "D",
+      "value": "0xCC,0xAA",
+      "references": [
+        "rfc7905",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_PSK_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "N",
+      "value": "0xCC,0xAB",
+      "references": [
+        "rfc7905"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "Y",
+      "value": "0xCC,0xAC",
+      "references": [
+        "rfc7905"
+      ]
+    },
+    {
+      "name": "TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "D",
+      "value": "0xCC,0xAD",
+      "references": [
+        "rfc7905",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256",
+      "recommended": "D",
+      "value": "0xCC,0xAE",
+      "references": [
+        "rfc7905",
+        "RFC-ietf-tls-deprecate-obsolete-kex-08"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256",
+      "recommended": "Y",
+      "value": "0xD0,0x01",
+      "references": [
+        "rfc8442"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384",
+      "recommended": "Y",
+      "value": "0xD0,0x02",
+      "references": [
+        "rfc8442"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256",
+      "recommended": "N",
+      "value": "0xD0,0x03",
+      "references": [
+        "rfc8442"
+      ]
+    },
+    {
+      "name": "TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256",
+      "recommended": "Y",
+      "value": "0xD0,0x05",
+      "references": [
+        "rfc8442"
+      ]
+    }
+  ]
+}

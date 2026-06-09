@@ -1,0 +1,23 @@
+{
+  "webServers": [
+    {
+      "name": "Apache",
+      "pattern": "^Apache(?:\\/([\\d]+(?:\\.[\\d]+)*))?(?: .*)?$",
+      "minimumSecureVersion": "2.4.62",
+      "notes": "Apache HTTP Server — versions prior to 2.4.62 are affected by known CVEs (e.g. CVE-2024-38476, CVE-2024-38477). Keep up-to-date with the latest stable 2.4.x release."
+    },
+    {
+      "name": "nginx",
+      "pattern": "^nginx(?:\\/([\\d]+(?:\\.[\\d]+)*))?$",
+      "minimumSecureVersion": "1.26.2",
+      "notes": "nginx — versions prior to 1.26.2 (stable) or 1.27.x (mainline) may be affected by HTTP/2 denial-of-service vulnerabilities. Use the latest stable branch."
+    },
+    {
+      "name": "Microsoft-IIS",
+      "pattern": "^Microsoft-IIS(?:\\/([\\d]+(?:\\.[\\d]+)*))?$",
+      "minimumSecureVersion": "10.0",
+      "notes": "Internet Information Services — IIS 8.5 and earlier are on extended/end-of-support. IIS 10.0 (Windows Server 2016/2019/2022) is the minimum recommended version."
+    }
+  ]
+}
+

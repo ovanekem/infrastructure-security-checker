@@ -1,0 +1,24 @@
+{
+  "name": "infrastructure-security-checker",
+  "version": "1.0.0",
+  "description": "CLI tool to run infrastructure SSL/TLS and TCP posture checks for a target URL.",
+  "type": "module",
+  "bin": {
+    "infrastructure-security-checker": "./dist/cli/main.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli/main.js",
+    "test": "npm run build && node --test tests"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "typescript": "^5.8.2"
+  }
+}

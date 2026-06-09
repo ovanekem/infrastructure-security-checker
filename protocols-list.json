@@ -1,0 +1,28 @@
+{
+  "protocols": [
+    {
+      "name": "SSLv2",
+      "status": "deprecated"
+    },
+    {
+      "name": "SSLv3",
+      "status": "deprecated"
+    },
+    {
+      "name": "TLSv1_0",
+      "status": "deprecated"
+    },
+    {
+      "name": "TLSv1_1",
+      "status": "deprecated"
+    },
+    {
+      "name": "TLSv1_2",
+      "status": "validated"
+    },
+    {
+      "name": "TLSv1_3",
+      "status": "validated"
+    }
+  ]
+}
